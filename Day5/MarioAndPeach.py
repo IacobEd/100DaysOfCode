@@ -21,3 +21,6 @@ def displayPathtoPrincess(grid):
   
 grid = [['-','-','-'],['-','m','-'],['p','-','-']]
 print(displayPathtoPrincess(grid))
+#Result: 
+#DOWN
+#LEFT
