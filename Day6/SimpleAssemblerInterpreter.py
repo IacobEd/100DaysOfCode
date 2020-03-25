@@ -6,7 +6,7 @@
 #def simple_assembler(program):
 #Register names are alphabetical (letters only). Constants are always integers (positive or negative).
 #Note: the jnz instruction moves relative to itself. For example, an offset of -1 would continue at the previous instruction, while an offset of 2 would skip over the next instruction.
-
+def simple_assembler(program):
   dictt = {}
   for i in range(len(program)):
     splits = program[i].split(" ",1)
