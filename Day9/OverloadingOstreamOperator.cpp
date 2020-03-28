@@ -20,7 +20,7 @@ private:
     string first_name_;
     string last_name_;
 };
-// Enter your code here.
+
 ostream& operator<<(ostream &output, const Person &P) { 
          output << "first_name=" << P.get_first_name() << ","<<"last_name="<<P.get_last_name();
          return output;            
