@@ -33,5 +33,5 @@ int main() {
     cout << p << " " << event << endl;
     return 0;
 }
-
-//Result : first_name=john,last_name=doe registered
+//Input : john doe registered
+//Output : first_name=john,last_name=doe registered
