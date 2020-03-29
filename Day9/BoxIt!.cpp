@@ -70,7 +70,10 @@ public:
 			out << box.l << " " << box.b << " " << box.h;
 			return out;
 		}
-		else return out;
+		else {
+			out << "It's  not an Box object class!";
+			return out;
+		}
 	}
 };
 
